@@ -115,7 +115,7 @@
     mixins:[JeecgListMixin],
     components: {
         ImagPreview,
-      RepairInfoModal
+        RepairInfoModal
     },
     data () {
       return {
@@ -157,19 +157,19 @@
             title: '报修状态',
             align:"center",
             dataIndex: 'stateTag',
-           customRender: (text,r,index) => {
-               let re = "";
-               if (text === 0) {
-                   re = "报修";
-               } else if (text === 1) {
-                   re = "接收";
-               } else if (text === 2) {
-                   re = "维修中";
-               } else if (text === 3) {
-                   re = "维修完毕";
-               }
-               return re;
-           }
+             customRender: (text) => {
+                 let re = "";
+                 if (text === 0) {
+                     re = "报修";
+                 } else if (text === 1) {
+                     re = "接收";
+                 } else if (text === 2) {
+                     re = "维修中";
+                 } else if (text === 3) {
+                     re = "维修完毕";
+                 }
+                 return re;
+             }
            },
 		   {
             title: '报修人电话',
@@ -184,7 +184,7 @@
           {
             title: '操作',
             dataIndex: 'action',
-              width:50,
+            width:50,
             align:"center",
             scopedSlots: { customRender: 'action' },
           }

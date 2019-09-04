@@ -193,7 +193,7 @@
             dataIndex: 'startTime'
            },
 		   {
-            title: '维修状态',
+            title: '报修单状态',
             align:"center",
             dataIndex: 'stateTag'
            },

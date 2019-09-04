@@ -126,9 +126,7 @@
   import RepairInfoModal from './modules/RepairInfoModal'
   import { filterObj } from '@/utils/util';
   import { deleteAction, getAction,downFile } from '@/api/manage'
-  import Vue from 'vue'
   import JEllipsis from "@/components/jeecg/JEllipsis";
-  import { ACCESS_TOKEN } from "@/store/mutation-types"
   import ImagPreview from "../jeecg/ImagPreview";
   // import { JeecgListMixin } from '@/mixins/JeecgListMixin'
 
