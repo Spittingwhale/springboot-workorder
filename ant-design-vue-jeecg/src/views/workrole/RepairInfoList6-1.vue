@@ -250,7 +250,7 @@
                 ],
                 url: {
                     imgerver: window._CONFIG['domianURL'] + "/sys/common/view",
-                    list: "/repairs/repairInfo/list/6",
+                    list: "/repairs/repairInfo/list/4",
                     delete: "/repairs/repairInfo/delete",
                     deleteBatch: "/repairs/repairInfo/deleteBatch",
                     exportXlsUrl: "repairs/repairInfo/exportXls",
